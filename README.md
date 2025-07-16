@@ -120,10 +120,10 @@ Run gpupdate /fore on client  device
 Provide a batch file as a manual fallback for users or helpdesk:
 
 
-batch'''
+```batch
 @echo off
 rundll32 printui.dll,PrintUIEntry /in /n"\\PR-PRN1-PRINTER02\Home Printer"
-batch'''
+```
 
 Place this batch file on a shared network location accessible by users, e.g.,
 
